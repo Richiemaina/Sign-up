@@ -26,10 +26,27 @@
 .form-box h1{
     font-size: 30px;
     margin-bottom: 50px;
-    color: #3c00a0;*
-    position: relative;
+    color: #892727;
+    position:relative;
 }
-.form-box h1::after{
+/*.form-box h1::after{
+    content: '';
+    width: 30px;
+    height:4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left:50%;
+    transform: translateX(-50%);
+}*/
+.form-box h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #3c00a0;
+    position:relative;
+}
+.form-box h3::after{
     content: '';
     width: 30px;
     height:4px;
@@ -92,4 +109,20 @@ form p a{
     background:#eaeaea;
     color: #555;
 
+}
+.continue{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.continue button{
+    flex-basis:48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius:20px;
+    border:0;
+    outline: 0;
+    cursor:pointer;
+    transition:background 1s;
 }
