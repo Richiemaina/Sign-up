@@ -29,7 +29,7 @@
     color: #892727;
     position:relative;
 }
-/*.form-box h1::after{
+.form-box h1::after{
     content: '';
     width: 30px;
     height:4px;
@@ -39,7 +39,7 @@
     bottom: -12px;
     left:50%;
     transform: translateX(-50%);
-}*/
+}
 .form-box h3{
     font-size: 30px;
     margin-bottom: 50px;
